@@ -1,39 +1,6 @@
 
 public class InsertionSortMain {
-	
-	/*  
-	public static void insrtionsort( int [] a, int n ){
-		
-		int temp ;
-		
-		for ( int i = 1 ; i < n ; i++) {
-			
-			temp = a[ i ] ;
-			
-			System.out.println( temp );
-			
-			for ( int j =  i - 1 ; j >= 0 ; j-- ) {
-				
-				System.out.println( a[ j + 1 ] );
-				if( a[ j ] < temp) {
-					System.out.println( " if " ); 
-					
-					a[ j + 1 ]  = a[ j ] ;
-					System.out.println( a[ j + 1 ] );
-					
-				}else {
-					System.out.println( " else " ); 
-					a[ j + 1 ]  = temp;
-					System.out.println( a[ j + 1 ] );
-				}
-			}
-		}
-	}
-	
-	   */
-	
-	
-	
+
 	
 	public static void insrtionsort( int [] a, int n ){
 		
